@@ -8,11 +8,12 @@ function setup() {
   weight=random(400,1500);
 
   car=createSprite(50,200,50,50);
-
-  wall=createSprite(1500,200,60,200);
-  wall.shapeColor=color(80,80,80);
-
   car.velocityX = speed;
+  car.shapeColor=color(255);
+  
+  wall=createSprite(900,200,60,200);
+  wall.shapeColor=color(80,80,80);
+  
 }
 
 function draw() {
